@@ -23,7 +23,7 @@ main {
     background-color: #000;
     text-align: center;
     font-size: 20px;
-    color: #21f8f6;
+    color: #e66767;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 }
 
 nav {
-    background-color: #00a2c6;
+    background-color: #e66767;
     padding: 1px;
     top: 0;
     position: sticky;
@@ -57,7 +57,7 @@ nav li {
 }
 
 h2 {
-    color: aqua;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold;
     margin-top: 0;
@@ -90,6 +90,7 @@ aside {
     max-height: 400px;
     object-fit: 100%;
     object-position: 100%;
+    padding-top: 20px;
 }
 
 .profile img {
@@ -107,12 +108,8 @@ aside {
 /* profile card aside */
 
 .profile {
-    padding: 10px;
     text-align: center;
     color: #000;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    margin-top: 20px;
 }
 
 .about {
